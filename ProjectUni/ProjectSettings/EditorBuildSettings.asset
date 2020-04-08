@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/IniciScenes/Inici.unity
+    guid: d9e6f0d6820f2c5449ab866a71c1c528
+  - enabled: 1
+    path: Assets/Scenes/IniciScenes/Admin.unity
+    guid: 1f31a8638fc66d04f9a9b1ef8570efe9
+  - enabled: 1
+    path: Assets/Scenes/Materia.unity
+    guid: d8d6aafd8a6044e4cb95b6e251516129
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MenuScenes/FonsMari.unity
+    guid: b997e13a8825db745824acc1fd58fcfc
+  - enabled: 1
+    path: Assets/Scenes/MenuScenes/Desert.unity
+    guid: 24bb1be7285264f418f3addae0d4339e
+  - enabled: 1
+    path: Assets/Scenes/MenuScenes/Granja.unity
+    guid: f5023466fa1a54d4ab8a52e402c20293
+  - enabled: 1
+    path: Assets/Scenes/MenuScenes/Montanya.unity
+    guid: ae5f3c12d17827943937664dece8731e
+  - enabled: 1
+    path: Assets/Scenes/MenuScenes/Platja.unity
+    guid: 9e28b29ecbee9474a88d0c40c1dd48fd
+  - enabled: 1
+    path: Assets/Scenes/Musica.unity
+    guid: 47dcbfe09d30f8147b87de5f807a1698
+  - enabled: 1
+    path: Assets/Scenes/MusicaScenes/Musica0.unity
+    guid: 5a43724bed8d83740be471c1829c7f6b
+  - enabled: 1
+    path: Assets/Scenes/MusicaScenes/Musica1.unity
+    guid: f6f30c7e12c3e2d46a1863297b2f0822
+  - enabled: 1
+    path: Assets/Scenes/MusicaScenes/Musica2.unity
+    guid: 4a6201ff94a9650419d58deec4517bf4
+  - enabled: 1
+    path: Assets/Scenes/Visual.unity
+    guid: 1fd00bc492e3284408d9d8a5df5ac160
+  - enabled: 1
+    path: Assets/Scenes/VisualScenes/Visual0.unity
+    guid: 0b5fdd3c36c793a4e869f6f0d3e285e7
+  - enabled: 1
+    path: Assets/Scenes/Plastica.unity
+    guid: 5d5b2c71398528449a13ff7e5fbd73fd
+  - enabled: 1
+    path: Assets/Scenes/PlastiaScenes/Plastica0.unity
+    guid: f356073414a1a944f97f50f6e26ee08c
+  - enabled: 1
+    path: Assets/Scenes/PlastiaScenes/Plastica1.unity
+    guid: 83503ae297183e540ad620ae4cd430e6
+  - enabled: 1
+    path: Assets/Scenes/PlastiaScenes/Plastica2.unity
+    guid: 9b0a0708782129448ad1c1f047e62ae3
+  - enabled: 1
+    path: Assets/Scenes/Llengua.unity
+    guid: 8f25ce833984f1d4abea7f7c9d990503
+  - enabled: 1
+    path: Assets/Scenes/LlenguaScenes/Llengua0.unity
+    guid: 96e05ecb927f53e49a59c31a909609b3
+  - enabled: 1
+    path: Assets/Scenes/LlenguaScenes/Llengua1.unity
+    guid: 1db8cdfc77e9a2b45af7e56c21068da0
+  - enabled: 1
+    path: Assets/Scenes/Mates.unity
+    guid: 3a02e63b31ef1bd4583cc2d86c9b7a91
+  - enabled: 1
+    path: Assets/Scenes/MatesScenes/Mates0.unity
+    guid: b1cee03952703a248a9f6598a85109d9
+  - enabled: 1
+    path: Assets/Scenes/MatesScenes/Mates1.unity
+    guid: 02d12c5a92e481b4586b4a533d9ee156
+  m_configObjects: {}

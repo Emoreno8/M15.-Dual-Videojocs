@@ -1,0 +1,619 @@
+fileFormatVersion: 2
+guid: 4ab9b6f96df137c438d5c667a0ee3018
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4705062540277563127
+    second: "\u2014Pngtree\u2014set of sea animals_4795681_0"
+  - first:
+      213: -847619946891871442
+    second: "\u2014Pngtree\u2014set of sea animals_4795681_1"
+  - first:
+      213: 6703668012924546804
+    second: "\u2014Pngtree\u2014set of sea animals_4795681_2"
+  - first:
+      213: 7544501427326821385
+    second: "\u2014Pngtree\u2014set of sea animals_4795681_3"
+  - first:
+      213: -4660791259988932263
+    second: "\u2014Pngtree\u2014set of sea animals_4795681_4"
+  - first:
+      213: -2723605815154202230
+    second: "\u2014Pngtree\u2014set of sea animals_4795681_5"
+  - first:
+      213: -2606013931996420527
+    second: "\u2014Pngtree\u2014set of sea animals_4795681_6"
+  - first:
+      213: 900401897615907257
+    second: "\u2014Pngtree\u2014set of sea animals_4795681_7"
+  - first:
+      213: 935907656656696260
+    second: "\u2014Pngtree\u2014set of sea animals_4795681_8"
+  - first:
+      213: -724255819177044787
+    second: "\u2014Pngtree\u2014set of sea animals_4795681_9"
+  - first:
+      213: -5011375731048697163
+    second: "\u2014Pngtree\u2014set of sea animals_4795681_10"
+  - first:
+      213: 3817653682028502919
+    second: "\u2014Pngtree\u2014set of sea animals_4795681_11"
+  - first:
+      213: 2967294668905874875
+    second: "\u2014Pngtree\u2014set of sea animals_4795681_12"
+  - first:
+      213: 1904492639925593063
+    second: "\u2014Pngtree\u2014set of sea animals_4795681_13"
+  - first:
+      213: 827805205256153556
+    second: "\u2014Pngtree\u2014set of sea animals_4795681_14"
+  - first:
+      213: -5327903682259897981
+    second: "\u2014Pngtree\u2014set of sea animals_4795681_15"
+  - first:
+      213: 7350473560202665366
+    second: "\u2014Pngtree\u2014set of sea animals_4795681_16"
+  - first:
+      213: 8074185032085730101
+    second: "\u2014Pngtree\u2014set of sea animals_4795681_17"
+  - first:
+      213: 141015642830346532
+    second: "\u2014Pngtree\u2014set of sea animals_4795681_18"
+  - first:
+      213: -1363039443092723209
+    second: "\u2014Pngtree\u2014set of sea animals_4795681_19"
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of sea animals_4795681_0"
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1580
+        width: 916
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc89a11eec8fd54eac793c8a2f3dc69
+      internalID: 4705062540277563127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of sea animals_4795681_1"
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1606
+        width: 906
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f376422a063564baddd9fe1ecc9d8b
+      internalID: -847619946891871442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of sea animals_4795681_2"
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1262
+        width: 182
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97913c29f99a74246873df41b974ea2b
+      internalID: 6703668012924546804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of sea animals_4795681_3"
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1267
+        width: 758
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bde056707c80c34ab86a5ed24366503
+      internalID: 7544501427326821385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of sea animals_4795681_4"
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1392
+        width: 192
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb384363eac6e146809e11e24c7f421
+      internalID: -4660791259988932263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of sea animals_4795681_5"
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1078
+        width: 547
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51289023c991244a9c531966fa512c4
+      internalID: -2723605815154202230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of sea animals_4795681_6"
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 980
+        width: 421
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fcb0fce313c3e344934eceb48df8577
+      internalID: -2606013931996420527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of sea animals_4795681_7"
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 709
+        width: 478
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9f84f67d7d38b4abea6f2a900e2f93
+      internalID: 900401897615907257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of sea animals_4795681_8"
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 875
+        width: 395
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f77acdd09f86114fbe03d36b27cf19d
+      internalID: 935907656656696260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of sea animals_4795681_9"
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 761
+        width: 346
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcaea6eb4f71c149b32bd871bc4d446
+      internalID: -724255819177044787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of sea animals_4795681_10"
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 972
+        width: 262
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf189e82cf64d042abb154a4a89f1b6
+      internalID: -5011375731048697163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of sea animals_4795681_11"
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 579
+        width: 362
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d296ce8a9a176949918d0035e7955dd
+      internalID: 3817653682028502919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of sea animals_4795681_12"
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 272
+        width: 336
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef15c8b29d77f874e9cffe16b1a0bc20
+      internalID: 2967294668905874875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of sea animals_4795681_13"
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 588
+        width: 381
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ebc5e14a5ef9b46ae0ef1008167290
+      internalID: 1904492639925593063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of sea animals_4795681_14"
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 488
+        width: 449
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214407279b9de5745aa466eeae50c727
+      internalID: 827805205256153556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of sea animals_4795681_15"
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 239
+        width: 458
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe11a86d0ba12cd4bac1b027e5e38c9f
+      internalID: -5327903682259897981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of sea animals_4795681_16"
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 57
+        width: 805
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92df6045b6ec5d47810ac2e0a41571c
+      internalID: 7350473560202665366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of sea animals_4795681_17"
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 286
+        width: 270
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf5d0f5c4afbb148b1264bb7cb5d4e2
+      internalID: 8074185032085730101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of sea animals_4795681_18"
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 60
+        width: 524
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0f4b2e12ec4bf4498d3f0d21b2080c
+      internalID: 141015642830346532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014set of sea animals_4795681_19"
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 59
+        width: 433
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9ba379fdb39a14e80cffc7baec7e1a
+      internalID: -1363039443092723209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
