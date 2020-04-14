@@ -5,97 +5,107 @@ using UnityEngine.UI;
 
 public class BuscarParelles : MonoBehaviour
 {
+    [SerializeField]
+    private Transform puzzleField;
 
-    public List<GameObject> parellas; //Llista d objectes
-    public int numObjectes; //Numero d'objectes
+    [SerializeField]
+    private GameObject btn;
 
-    int correctes = 0; //Acerts
-    int error = 0; //Errors
-
-    public static string nomBoto; //Nom objecte selecionat
-    int numBoto; //
-    string[] objNom = new string[2]; //Numero parelles selecionats
-    int[] objNum = new int[2]; //Numero parelles selecionats
-
-    int cont=0;
-
-    void Start()
+    void Awake()
     {
-
-        for(int i=0; i< numObjectes; i++)
+        
+        for(int i=0; i<8; i++)
         {
-            parellas[i].SetActive(false); 
-        }
-
-    }
-
-    public void Parella(Button button)
-    {
-        //nom boto selecionat
-        nomBoto=button.name;
-        //
-        parellas.index;
-
-        //primer objecte
-        if(cont==0){
-            for(int i=0; i< numObjectes; i++){
-                if(parellas[i]==nomBoto){
-                    objNum[0]=i;
-                }      
-            }
-        }
-
-        //segon objecte
-        if(cont==1){
-
-            for(int i=0; i< numObjectes; i++){
-                if(parellas[i]==nomBoto){
-                    objNum[1]=i;   
-                }      
-            }
-        }
-
-        for(int i=0; i< numObjectes; i++)
-        {
-            if(parellas[i].name==objNom[0] && parellas[i].name==objNom[1]){
-                parellas[i].SetActive(false); 
-            }
-        }
-
-        //activar
-        Debug.Log(nomBoto);
-
-        //primer objecte
-        if(cont==0){
-            objNum[cont]=nomBoto;
-        }
-        //segon objecte
-        if(cont==1){
-            objNum[cont]=nomBoto;
-            //comparar 1 i 2 objecte
-            if(objNum[0] != objNum[1]){
-                //desactivar
-                parella1[objNum[0]].SetActive(false);
-                parella1[objNum[1]].SetActive(false);
-                //reset
-                cont=0;
-                objName[0]="";
-                objName[1]="";
-            }else{
-                //activar
-                for (int i = 0; i <= numObjectes; i++)
-                {
-                    if(allObj[i].name==nomBoto)
-                        allObj[i].SetActive(true);
-                }
-                //reset
-                cont=0;
-                objName[0]="";
-                objName[1]="";
-            }
-            
+            GameObject button = Instantiate(btn);
+            button.name = "" + i;
+            button.transform.SetParent(puzzleField, false);
         }
 
     }
 
 }
+
+
+/*    
+    GameObject token; //imatge tocada
+    List<int> faceindexes = new List<int> {0,1,2,3,0,1,2,3}; //llista de imatges
+    public static System.Random rnd = new System.Random(); //llistar imatges random
+    public int shuffleNum = 0; //imatge comparar
+    int[] visibleFaces = { -1, -2 }; //imatges correctes
+
+    void Start() //inici
+    {
+        int originalLength = faceindexes.Count; //llargada, numero de imatges original 
+        float yPosition = 2.3f;
+        float xPosition = -2.2f;
+        
+        for(int i=0; i < 7; i++)
+        {
+            shuffleNum = rnd.Next(0,(faceindexes.Count));
+            var temp = Instantiate(token, new Vector3(xPosition, yPosition, 0),Quaternion.identity);
+            temp.GetComponent<MainCard>().faceIndex = faceindexes[shuffleNum];
+            faceindexes.Remove(faceindexes[shuffleNum]);
+            xPosition = xPosition +4;
+            if(i == (originalLength/2 - 2))
+            {
+                yPosition = -2.3f;
+                xPosition = -6.2f;
+            }
+        }
+        token.GetComponent<MainCard>().faceIndex = faceindexes[0];
+
+    }
+
+    public bool TwoCardsUp() //comparar cartes girades
+    {
+        bool cardUp=false; 
+        if(visibleFaces[0] >= 0 && visibleFaces[1] >= 0)
+        {
+            cardUp=true;
+        }
+        return cardUp;
+    }
+
+    public void AddVisibleFace(int index)
+    {
+        if(visibleFaces[0] == -1)
+        {
+            visibleFaces[0]=index;
+        }
+        else if(visibleFaces[1] == -2)
+        {
+            visibleFaces[1]=index;
+        }
+    }
+
+    public void RemoveVisibleFace(int index)
+    {
+        if(visibleFaces[0] == index)
+        {
+            visibleFaces[0]= -1;
+        }
+        else if(visibleFaces[1] == index)
+        {
+            visibleFaces[1]= -2;
+        } 
+    }
+
+    public bool CheckMatch() //comparar cartes correctes
+    {
+        bool success=false;
+        if(visibleFaces[0] == visibleFaces[1])
+        {
+            visibleFaces[0]= -1;
+            visibleFaces[1]= -2;
+            success=true;
+        }
+        return success;
+    }
+
+    private void Awake()
+    {
+        token = GameObject.Find("Token");
+    }
+
+}
+*/

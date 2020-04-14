@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\BuscarParelles.cs" />
      <Compile Include="Assets\Scripts\CrearUsuari.cs" />
      <Compile Include="Assets\Scripts\LoginUsuari.cs" />
+     <Compile Include="Assets\Scripts\MainCard.cs" />
      <Compile Include="Assets\Scripts\ObjectesMusica.cs" />
      <Compile Include="Assets\Scripts\Paisatge.cs" />
      <Compile Include="Assets\Scripts\Songs.cs" />
