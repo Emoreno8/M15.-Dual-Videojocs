@@ -60,9 +60,6 @@ EditorBuildSettings:
     path: Assets/Scenes/PlastiaScenes/Plastica1.unity
     guid: 83503ae297183e540ad620ae4cd430e6
   - enabled: 1
-    path: Assets/Scenes/PlastiaScenes/Plastica2.unity
-    guid: 9b0a0708782129448ad1c1f047e62ae3
-  - enabled: 1
     path: Assets/Scenes/Llengua.unity
     guid: 8f25ce833984f1d4abea7f7c9d990503
   - enabled: 1

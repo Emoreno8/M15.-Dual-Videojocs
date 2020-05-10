@@ -18,8 +18,18 @@ public class BuscarLletra : MonoBehaviour
     int error = 0;  //Errors
     int random; //numero random
 
+    public GameObject imatge1;   
+    public GameObject imatge2; 
+
+    private float temps = 0.0f; 
+    private float tempsLimit = 1.0f; 
+
     void Start()
     {
+        imatge1.SetActive(false);
+        imatge2.SetActive(false);
+        
+
         random = Random.Range(0, numObjectes);  
         numObj = random;
         
@@ -41,6 +51,10 @@ public class BuscarLletra : MonoBehaviour
 
         if ( nomBoto[0] == paraula[0])
         {
+            //correcte
+            imatge1.SetActive(true);
+            temps=0.0f;
+            
             correctes++;
             Debug.Log("Correctes: " + correctes);
                
@@ -57,12 +71,29 @@ public class BuscarLletra : MonoBehaviour
         }
         else
         {
-                error++;
-                Debug.Log("Errors: " + error);
-                Debug.Log("Lletra a clicar: " + paraula[0]);
+            //error
+            imatge2.SetActive(true);
+            temps=0.0f;
+
+            error++;
+            Debug.Log("Errors: " + error);
+            Debug.Log("Lletra a clicar: " + paraula[0]);
+        }
+
+        
+
+    }
+
+    public void Update(){
+
+        temps = temps + 1 * Time.deltaTime;
+        if(temps>=tempsLimit){
+            imatge1.SetActive(false);
+            imatge2.SetActive(false);
         }
 
     }
+
       
 }
 

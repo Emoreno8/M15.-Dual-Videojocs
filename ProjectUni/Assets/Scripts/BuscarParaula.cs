@@ -13,6 +13,13 @@ public class BuscarParaula : MonoBehaviour
     //public Text textLletra=null;
     string paraula;
 
+    public GameObject imatge1;   
+    public GameObject imatge2; 
+
+    private float temps = 0.0f; 
+    private float tempsLimit = 1.0f; 
+
+
     public static string nomBoto; //Nom objecte selecionat
     public int numObjectes; //Numero d'objectes
     int correctes = 0; //Acerts
@@ -21,6 +28,10 @@ public class BuscarParaula : MonoBehaviour
 
     void Start()
     {
+
+        imatge1.SetActive(false);
+        imatge2.SetActive(false);
+
         random = Random.Range(0, numObjectes);  
         numObj = random;
         
@@ -42,6 +53,9 @@ public class BuscarParaula : MonoBehaviour
 
         if ( nomBoto[0] == paraula[0])
         {
+            imatge1.SetActive(true);
+            temps=0.0f;
+
             correctes++;
             Debug.Log("Correctes: " + correctes);
                
@@ -58,9 +72,22 @@ public class BuscarParaula : MonoBehaviour
         }
         else
         {
+                imatge2.SetActive(true);
+                temps=0.0f;
+
                 error++;
                 Debug.Log("Errors: " + error);
                 Debug.Log("Lletra a clicar: " + paraula[0]);
+        }
+
+    }
+
+    public void Update(){
+
+        temps = temps + 1 * Time.deltaTime;
+        if(temps>=tempsLimit){
+            imatge1.SetActive(false);
+            imatge2.SetActive(false);
         }
 
     }
