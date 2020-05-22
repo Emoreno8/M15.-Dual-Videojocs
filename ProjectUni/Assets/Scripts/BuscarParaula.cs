@@ -13,8 +13,9 @@ public class BuscarParaula : MonoBehaviour
     //public Text textLletra=null;
     string paraula;
 
-    public GameObject imatge1;   
-    public GameObject imatge2; 
+    //correcte incorrecte
+    public GameObject imatge1;
+    public GameObject imatge2;
 
     private float temps = 0.0f; 
     private float tempsLimit = 1.0f; 
@@ -26,13 +27,14 @@ public class BuscarParaula : MonoBehaviour
     int error = 0;  //Errors
     int random; //numero random
 
+
     void Start()
     {
 
         imatge1.SetActive(false);
         imatge2.SetActive(false);
 
-        random = Random.Range(0, numObjectes);  
+        random = Random.Range(0, numObjectes); 
         numObj = random;
         
         paraula=noms[numObj].name;
@@ -42,16 +44,14 @@ public class BuscarParaula : MonoBehaviour
         //text.unity lletra
         //textLletra.text =paraula[0]+"";
         Debug.Log("Paraula: " + noms[numObj].name);
-        Debug.Log("Lletra a clicar: " + paraula[0]);
+        Debug.Log("Lletra a clicar: " + paraula);
 
     }
 
-    public void Test(Button button) {
-        nomBoto = button.name;
+    public void Aceptar(){
 
-        Debug.Log("Lletra clicada: " + nomBoto[0]);
 
-        if ( nomBoto[0] == paraula[0])
+        if ( paraula[0] == nomBoto[0])
         {
             imatge1.SetActive(true);
             temps=0.0f;
@@ -66,7 +66,7 @@ public class BuscarParaula : MonoBehaviour
             }while(random!=numObj);
 
             paraula=noms[numObj].name;
-
+            
             textParaula.text =paraula;
             //textLletra.text =paraula[0]+"";
         }
@@ -79,6 +79,13 @@ public class BuscarParaula : MonoBehaviour
                 Debug.Log("Errors: " + error);
                 Debug.Log("Lletra a clicar: " + paraula[0]);
         }
+
+    }
+
+    public void Test(Button button) {
+        nomBoto = button.name;
+
+        Debug.Log("Lletra clicada: " + nomBoto);
 
     }
 

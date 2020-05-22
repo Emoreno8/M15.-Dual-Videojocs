@@ -29,8 +29,7 @@ public class BuscarLletra : MonoBehaviour
         imatge1.SetActive(false);
         imatge2.SetActive(false);
         
-
-        random = Random.Range(0, numObjectes);  
+        random = Random.Range(0, numObjectes); 
         numObj = random;
         
         paraula=paraules[numObj].text;
@@ -44,10 +43,7 @@ public class BuscarLletra : MonoBehaviour
 
     }
 
-    public void Test(Button button) {
-        nomBoto = button.name;
-
-        Debug.Log("Lletra clicada: " + nomBoto);
+    public void Aceptar(){
 
         if ( nomBoto[0] == paraula[0])
         {
@@ -80,7 +76,12 @@ public class BuscarLletra : MonoBehaviour
             Debug.Log("Lletra a clicar: " + paraula[0]);
         }
 
-        
+    }
+
+    public void Test(Button button) {
+        nomBoto = button.name;
+
+        Debug.Log("Lletra clicada: " + nomBoto);
 
     }
 
