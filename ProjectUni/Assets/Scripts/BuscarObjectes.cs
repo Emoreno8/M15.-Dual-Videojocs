@@ -20,9 +20,19 @@ public class BuscarObjectes : MonoBehaviour
 
     int random; //numero random
 
+        //corecte incorrecte
+    public GameObject imatge1;   
+    public GameObject imatge2; 
+
+    private float temps = 0.0f; 
+    private float tempsLimit = 1.0f; 
+
+
     void Start()
     {
-        
+        imatge1.SetActive(false);
+        imatge2.SetActive(false);
+
         random = Random.Range(0, numObjectes);  
         numAnimal = random;
 
@@ -44,6 +54,10 @@ public class BuscarObjectes : MonoBehaviour
 
         if ( nomBoto == animalBuscar[numAnimal].name)
         {
+            imatge1.SetActive(true);
+            temps=0.0f;
+
+
             correctes++;
             Debug.Log("Animal clicat: " + nomBoto);
             Debug.Log("Correctes: " + correctes);
@@ -53,6 +67,7 @@ public class BuscarObjectes : MonoBehaviour
                 Debug.Log("NumeroRandom: " + random);
                 numAnimal = random;
             }while(random!=numAnimal);
+
 
             for (int i = 0; i < numObjectes; i++)
             {
@@ -64,11 +79,24 @@ public class BuscarObjectes : MonoBehaviour
         }
         else
         {
+                imatge2.SetActive(true);
+                temps=0.0f;
+
                 error++;
                 Debug.Log("Errors: " + error);
         }
 
 
+
+    }
+
+        public void Update(){
+
+        temps = temps + 1 * Time.deltaTime;
+        if(temps>=tempsLimit){
+            imatge1.SetActive(false);
+            imatge2.SetActive(false);
+        }
 
     }
 
